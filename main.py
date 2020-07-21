@@ -18,6 +18,8 @@ while play == True:
       if player_num == comp_num:
         print("correct")
         won = True
+        print ("god level?")
+        break
       elif player_num < comp_num:
         print("to small")
         tries -= 1
